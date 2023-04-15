@@ -1,4 +1,6 @@
-<h1 align="center">Celestial Snapshots</h1>
+<p align="center">
+<img src="https://i.imgur.com/I8UdNcI.png" width="50%">
+</p>
 <h2 align="center">An APOD Web App linked with NASA's API</h2>
 
 ## How It's Made:
