@@ -5,11 +5,9 @@
 <img src="https://i.imgur.com/V8eY4Es.png" width="75%">
 </p>
 <h2 align="center">An APOD Web App linked with NASA's API</h2>
-	  <p align="center">
-<a href="https://celestial-snapshots.netlify.app/" target="_blank">
-  <img src="https://img.shields.io/static/v1?label=|&message=WEBSITE&color=cdf998&style=plastic&logo=wordpress&logo-color=white"/>
-</a>
-	</p>
+<p align="center">
+<h3 align="center">Access the App <a href="https://celestial-snapshots.netlify.app/" target="blank">Here</a></h3>
+</p>
 
 ## How It's Made:
 
