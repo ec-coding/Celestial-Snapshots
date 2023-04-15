@@ -18,17 +18,25 @@
   background: rgb(212, 212, 212);
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-img{
-  display: block;
-  margin: 0 auto;
+.bg-dark-gradient {
+  background-image: linear-gradient(rgba(133, 141, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 12.5%, rgba(0, 0, 0, 0.5) 90%, rgba(133, 141, 255, 0.5) 100%);
+  border-radius: 0.5vh;
+  border: solid 5px rgba(145, 145, 255, 0.5);
 }
 
+.bs-dark {
+  box-shadow:
+  2px 2px 0.5em rgba(122, 122, 122, 0.55),
+  inset -1.5px -1.5px 0 rgba(162, 164, 255, 0.9),
+  inset 1.5px 1.5px 0 rgba(20, 0, 68, 0.5);
+}
+
+.ts-blue {
+  text-shadow: 1px 1px 0 #9481ff;
+}
 
 /******************************************
-/* ADDITIONAL STYLES
+/* LAYOUT
 /*******************************************/
 
 h1 {
@@ -49,20 +57,9 @@ h3 {
   -webkit-text-stroke-color: rgb(125, 135, 255);
 }
 
-.app-container {
-  color: white;
-  position: relative;
-  z-index: 10;
-}
-
-.app-container .sub-header {
-  background-image: linear-gradient(rgba(133, 141, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 80%, rgba(133, 141, 255, 0.5) 100%);
-}
-
-.bg-dark-gradient {
-  background-image: linear-gradient(rgba(133, 141, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 12.5%, rgba(0, 0, 0, 0.5) 90%, rgba(133, 141, 255, 0.5) 100%);
-  border-radius: 0.5vh;
-  border: solid 5px rgba(145, 145, 255, 0.5);
+img{
+  display: block;
+  margin: 0 auto;
 }
 
 input {
@@ -94,6 +91,21 @@ button:active {
   transition: 0.2s;
 }
 
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.app-container {
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+
+.app-container .sub-header {
+  background-image: linear-gradient(rgba(133, 141, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 80%, rgba(133, 141, 255, 0.5) 100%);
+}
+
 .content-desc {
   font-size: 22px;
 }
@@ -109,6 +121,10 @@ button:active {
   overflow-y: auto;
 }
 
+.screen-half {
+  height: 70vh;
+}
+
 .scroll-animate {
   -webkit-mask-image: linear-gradient(to right, transparent 47.5%, #000 52.5%);
   -webkit-mask-size: 210%;
@@ -119,21 +135,6 @@ button:active {
   to {
     -webkit-mask-position: 100%;
   }
-}
-
-.screen-half {
-  height: 70vh;
-}
-
-.bs-dark {
-  box-shadow:
-  2px 2px 0.5em rgba(122, 122, 122, 0.55),
-  inset -1.5px -1.5px 0 rgba(162, 164, 255, 0.9),
-  inset 1.5px 1.5px 0 rgba(20, 0, 68, 0.5);
-}
-
-.ts-blue {
-  text-shadow: 1px 1px 0 #9481ff;
 }
 
 /* ------------------------ */
@@ -148,7 +149,7 @@ button:active {
 }
 
 .stars {
- background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+ background: black url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png") repeat;
  position: absolute;
 	top: 0;
 	bottom: 0;
