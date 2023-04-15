@@ -1,6 +1,9 @@
 <p align="center">
 <img src="https://i.imgur.com/I8UdNcI.png" width="50%">
 </p>
+<p align="center">
+<img src="https://i.imgur.com/V8eY4Es.png" width="50%">
+</p>
 <h2 align="center">An APOD Web App linked with NASA's API</h2>
 
 ## How It's Made:
