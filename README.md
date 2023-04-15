@@ -6,7 +6,7 @@
 </p>
 <h2 align="center">An APOD Web App linked with NASA's API</h2>
 <p align="center">
-<h3 align="center">Access the App <a href="https://celestial-snapshots.netlify.app/" target="blank">Here</a></h3>
+<h3 align="center"><a href="https://celestial-snapshots.netlify.app/" target="blank">Website</a></h3>
 </p>
 
 ## How It's Made:
