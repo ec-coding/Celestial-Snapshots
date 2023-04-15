@@ -36,10 +36,10 @@ h1 {
   background-image: linear-gradient(rgba(133, 141, 255, 0.95) 0%, rgba(0, 0, 0, 0.5) 50%);
   border: solid 4.5px rgba(145, 145, 255, 0.75);
   font-size: 36px;
-  border-top: none;
-  padding: 2.5px 0;
-  border-bottom-left-radius: 4.5vh;
-  border-bottom-right-radius: 4.5vh;
+  border-bottom: none;
+  padding: 3.5px 0;
+  border-top-left-radius: 4.5vh;
+  border-top-right-radius: 4.5vh;
   -webkit-text-stroke-width: 0.75px;
   -webkit-text-stroke-color: rgb(56, 68, 245);
 }
@@ -60,7 +60,7 @@ h3 {
 }
 
 .bg-dark-gradient {
-  background-image: linear-gradient(rgba(133, 141, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 12.5%, rgba(0, 0, 0, 0.5) 95%, rgba(133, 141, 255, 0.5) 100%);
+  background-image: linear-gradient(rgba(133, 141, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 12.5%, rgba(0, 0, 0, 0.5) 90%, rgba(133, 141, 255, 0.5) 100%);
   border-radius: 0.5vh;
   border: solid 5px rgba(145, 145, 255, 0.5);
 }
@@ -181,7 +181,7 @@ button:active {
 }
 
 .stars {
- background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+ background: black url(https://i.imgur.com/yumVPW1.jpg) repeat;
  position: absolute;
 	top: 0;
 	bottom: 0;
@@ -191,7 +191,7 @@ button:active {
   	z-index: 0;
 }
 
-.twinkling{
+/* .twinkling{
 	width:10000px;
 	height: 100%;
 	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
@@ -234,4 +234,4 @@ img{
   z-index: 3;
   left: -380px;
   top: -200px
-}
+} */
