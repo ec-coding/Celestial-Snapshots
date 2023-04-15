@@ -2,6 +2,9 @@
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
+  document.querySelector('.content-title').classList.remove('scroll-animate')
+  document.querySelector('.content-desc').classList.remove('scroll-animate')
+  document.querySelector('.nasa-img').classList.remove('scroll-animate')
   const choice = document.querySelector('input').value
   console.log(choice)
 
@@ -12,12 +15,18 @@ function getFetch(){
       .then(data => {
         console.log(data)
         if ( data.media_type === 'image' ) {
-          document.querySelector('img').src = data.hdurl
+          document.querySelector('.nasa-img').src = data.hdurl
         } else if( data.media_type === 'video' ) {
           document.querySelector('iframe').src = data.url
         }
-
-        document.querySelector('h4').innerText = data.explanation
+        document.querySelector('.nasa-img').classList.add('scroll-animate')
+        document.querySelector('.content-title').classList.add('py-2')
+        document.querySelector('.content-title').classList.add('scroll-animate')
+        document.querySelector('.content-title').innerText = data.title
+        document.querySelector('.content-desc').classList.add('py-3')
+        document.querySelector('.content-desc').classList.add('text-scroll')
+        document.querySelector('.content-desc').classList.add('scroll-animate')
+        document.querySelector('.content-desc').innerText = data.explanation
       })
       .catch(err => {
           console.log(`error ${err}`)
