@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/I8UdNcI.png" width="50%">
 </p>
 <p align="center">
-<img src="https://i.imgur.com/2vK8kO6.mp4" width="75%">
+<img src="https://github.com/ec-coding/Celestial-Snapshots/blob/main/img/celestial-snapshots2.gif" width="75%">
 </p>
 <h2 align="center">An APOD Web App linked with NASA's API</h2>
 <p align="center">
