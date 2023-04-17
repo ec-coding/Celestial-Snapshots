@@ -6,6 +6,9 @@
 </p>
 <h2 align="center">An APOD Web App linked with NASA's API</h2>
 <p align="center">
+Celestial Snapshots is an app that allows users to fetch various Astronomy Pictures of the Day using fetch calls linked to NASA's very own API. Built to test repeatable CSS animations in tandem with API fetches.
+</p>
+<p align="center">
 <h3 align="center"><a href="https://celestial-snapshots.netlify.app/" target="_blank" rel="noreferrer">Website</a></h3>
 </p>
 
