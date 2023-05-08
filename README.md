@@ -2,9 +2,12 @@
 <img src="https://i.imgur.com/I8UdNcI.png" width="50%">
 </p>
 <p align="center">
-<img src="https://i.imgur.com/2vK8kO6.mp4" width="75%">
+<img src="https://github.com/ec-coding/Celestial-Snapshots/blob/main/img/celestial-snapshots2.gif" width="75%">
 </p>
 <h2 align="center">An APOD Web App linked with NASA's API</h2>
+<p align="center">
+Celestial Snapshots is an app that allows users to fetch various Astronomy Pictures of the Day using fetch calls linked to NASA's very own API. Built to test repeatable CSS animations in tandem with API fetches.
+</p>
 <p align="center">
 <h3 align="center"><a href="https://celestial-snapshots.netlify.app/" target="_blank" rel="noreferrer">Website</a></h3>
 </p>
