@@ -1,6 +1,12 @@
 //Example fetch using pokemonapi.co
 document.querySelector('button').addEventListener('click', getFetch)
 
+const loadingGif = document.querySelector('#loading-gif')
+
+
+
+
+
 function getFetch(){
   document.querySelector('.content-title').classList.remove('scroll-animate')
   document.querySelector('.content-desc').classList.remove('scroll-animate')
@@ -13,9 +19,17 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
+        loadingGif.style.display = 'block';
         console.log(data)
         if ( data.media_type === 'image' ) {
           document.querySelector('.nasa-img').src = data.hdurl
+
+          const nasaImg = document.querySelector('.nasa-img');
+          nasaImg.src = data.hdurl;
+          nasaImg.addEventListener('load', () => {
+            loadingGif.style.display = 'none';
+          });
+
         } else if( data.media_type === 'video' ) {
           document.querySelector('iframe').src = data.url
         }

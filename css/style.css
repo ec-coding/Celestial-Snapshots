@@ -57,6 +57,10 @@ h3 {
   -webkit-text-stroke-color: rgb(125, 135, 255);
 }
 
+#loading-gif {
+  display: none;
+}
+
 img{
   display: block;
   margin: 0 auto;
@@ -108,6 +112,13 @@ button:active {
 
 .content-desc {
   font-size: 22px;
+}
+
+.nasa-img-loading {
+  height: 50%;
+  width: 50%;
+  margin-top: 15%;
+  position: static;
 }
 
 .nasa-img {
